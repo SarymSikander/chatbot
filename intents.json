@@ -1,0 +1,48 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hi, Welcome to IMSciences Chatbot!", "Hello, Welcome to IMS Chatbot!", "Hi there, what can I do for you?", "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting!", "Have a nice day!", "Bye! Come back soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+    },
+    {
+      "tag": "campus life",
+      "patterns": ["How's the campus life in IMSciences?", "What about the campus life?", "Campus life?", "Life at IMS?"],
+      "responses": ["The Institute provides you with a vast network of academic, cultural and social activities to create your own IMSciences life and experience.",
+                    "At IMSciences, campus life is dedicated to realize full potential of students by fostering personal development, social service, and community programs",
+                    "IMSciences lays due emphasis on co-curricular activities and students are closely integrated into the university life through active participation in various social, athletic, and artistic clubs and societies."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How do I apply for admission in IMSciences?", "admission?", "how to take admission?", "admission open?"],
+      "responses": [" For applying online, please log in to our online admission portal by following the link: \nhttp://admission.imsciences.edu.pk/"]
+    },
+    {
+      "tag": "study",
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+      "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                    "What did the buffalo say when his son left for college? Bison."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer?", "courses offering?", "Do you offer IT courses?", "Do you offer Software courses?", "Do you offer Computer Science courses?", "Do you offer Psychology courses?", "Do you offer IT courses?", "Do you offer English courses?", "Do you offer BBA?", "Do you offer Social Sciences?"],
+      "responses": ["We offer the following courses to our students. \n Undergraduate Programs: \n - BSCS \n - BSSE \n - BS Data Science \n - BS Accounting & Finance \n - BS Social Sciences \n - BS Psychology \n - BS Economics \n - BS English"]
+    },
+    {
+      "tag": "numbers",
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+      "responses": ["For inquiry or details, contact the following numbers. /n 091-9217451 /n 091-9217452"]
+    }
+  ]
+}
